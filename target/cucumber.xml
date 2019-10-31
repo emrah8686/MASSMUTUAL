@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="1" time="0.022148">
+<testcase classname="Exercise Value Validation" name="Verify result when all step passed as expected" time="0.022148">
+<skipped><![CDATA[Given User get that url "http://dummy.restapiexample.com/api/v1/employees"..undefined
+When User see screen as successfully open...................................undefined
+Then User should send correct value to each element on page.................undefined
+And user should see total balance equal to sum of values....................undefined
+]]></skipped>
+</testcase>
+</testsuite>

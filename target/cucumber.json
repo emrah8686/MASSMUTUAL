@@ -1,0 +1,73 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "User get that url \"http://dummy.restapiexample.com/api/v1/employees\"",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "User see screen as successfully open",
+            "match": {},
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "line": 31,
+        "name": "Verify result when all step passed as expected",
+        "description": "",
+        "id": "exercise-value-validation;verify-result-when-all-step-passed-as-expected",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 32,
+            "name": "User should send correct value to each element on page",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 33,
+            "name": "user should see total balance equal to sum of values",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@end_2_end_testing"
+          }
+        ]
+      }
+    ],
+    "name": "Exercise Value Validation",
+    "description": "",
+    "id": "exercise-value-validation",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/Exercise.feature",
+    "tags": []
+  }
+]
